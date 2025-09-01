@@ -5,12 +5,12 @@ import { motion } from 'motion/react'
 
 const cards = [
     {
-        image: '/cube-helix 1.png',
+        image: '/images/cube-helix 1.png',
         title: 'Integration ecosystem',
         body: 'Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place.',
     },
     {
-        image: '/cube-helix 2.png',
+        image: '/images/cube-helix 2.png',
         title: ' Goal setting and tracking',
         body: 'Define and track your goals, breaking down objectives into achievable tasks to keep your targets in sight.',
     },
