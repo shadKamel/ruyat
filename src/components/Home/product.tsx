@@ -65,14 +65,14 @@ export default function Product() {
                 </div>
                 <Image
                     alt="product"
-                    src="/torus.png"
+                    src="/images/torus.png"
                     className="animate-floating-reverse absolute bottom-20 -left-22 hidden md:inline"
                     width={250}
                     height={250}
                 />
                 <Image
                     alt="product"
-                    src="/pyramid.png"
+                    src="/images/pyramid.png"
                     className="animate-floating absolute top-24 -right-22 hidden md:inline"
                     width={250}
                     height={250}

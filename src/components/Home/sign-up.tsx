@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 export default function Signup() {
     return (
-        <section className="overflow-hidden bg-linear-180 from-[#FFFFFF] to-[#D2DCFF]">
+        <section className="overflow-hidden bg-linear-180 from-[#FFFFFF] to-[#D2DCFF] lg:mt-20">
             <div className="relative mx-auto max-w-xl pt-32 pb-28">
                 <SectionHeading
                     title="Sign up for free today"
@@ -30,14 +30,14 @@ export default function Signup() {
                     </Button>
                 </div>
                 <Image
-                    src="/emojistar.png"
+                    src="/images/emojistar.png"
                     className="absolute top-0 left-10 hidden -translate-x-full md:inline"
                     width={350}
                     height={350}
                     alt="emojistar"
                 />
                 <Image
-                    src="/helix2.png"
+                    src="/images/helix2.png"
                     className="absolute right-20 bottom-0 hidden translate-x-full md:inline"
                     width={350}
                     height={350}

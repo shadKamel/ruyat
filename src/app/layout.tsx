@@ -16,7 +16,7 @@ export const metadata: Metadata = {
             name: 'shad kamil',
         },
     ],
-    metadataBase: new URL('https://localhost:3000'),
+    metadataBase: new URL('https://ruyat.vercel.app'),
     alternates: {
         canonical: '/',
     },
@@ -24,8 +24,15 @@ export const metadata: Metadata = {
         title: 'Pathway to productivity',
         description:
             'Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.',
-        images: ['/Logo.png'],
-        url: 'https://localhost:3000',
+        images: [
+            {
+                url: 'https://ruyat.vercel.app/og.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'My Open Graph Image',
+            },
+        ],
+        url: 'https://ruyat.vercel.app',
         siteName: 'Pathway to productivity',
     },
     icons: {

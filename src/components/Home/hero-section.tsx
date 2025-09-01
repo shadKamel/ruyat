@@ -46,14 +46,14 @@ export default function HeroSection() {
                             <Image
                                 width={700}
                                 height={700}
-                                src="/Visual.png"
+                                src="/images/Visual.png"
                                 alt="visual image"
                             />
                             <Image
                                 width={250}
                                 height={250}
                                 className="animate-floating absolute top-0 left-0 hidden -translate-x-20 md:inline"
-                                src="/cylinder 1.png"
+                                src="/images/cylinder 1.png"
                                 alt="cylinder image"
                             />
                         </div>
@@ -62,21 +62,21 @@ export default function HeroSection() {
                         <Image
                             width={1200}
                             height={700}
-                            src="/Visual.png"
+                            src="/images/Visual.png"
                             alt="visual image"
                         />
                         <Image
                             width={250}
                             height={250}
                             className="animate-floating absolute top-0 left-0 hidden -translate-x-30 md:inline"
-                            src="/cylinder 1.png"
+                            src="/images/cylinder 1.png"
                             alt="cylinder image"
                         />
                         <Image
                             width={250}
                             height={250}
                             className="animate-floating-reverse absolute right-0 bottom-0 hidden translate-x-10 translate-y-50 lg:inline"
-                            src="/half-torus 1.png"
+                            src="/images/half-torus 1.png"
                             alt="half-torus image"
                         />
                     </div>
