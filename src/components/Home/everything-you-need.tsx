@@ -18,7 +18,7 @@ const cards = [
 
 export default function EverythingYouNeed() {
     return (
-        <section className="mx-auto max-w-5xl overflow-x-hidden py-24 sm:py-28">
+        <section className="mx-auto max-w-5xl py-24 sm:py-28 md:overflow-x-hidden lg:overflow-auto">
             <SectionHeading
                 tag="Everything you need"
                 title="Streamlined for easy management"
