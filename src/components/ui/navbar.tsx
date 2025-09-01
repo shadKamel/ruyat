@@ -12,6 +12,7 @@ import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Navbar() {
+    const DisclosurePanelMotion = motion.create(DisclosurePanel)
     return (
         <Disclosure as="nav" className="absolute z-50 w-full">
             <div className="container mx-auto">
@@ -107,7 +108,7 @@ export default function Navbar() {
             </div>
 
             <AnimatePresence>
-                <DisclosurePanel
+                <DisclosurePanelMotion
                     as={motion.div}
                     className="px-2 sm:hidden"
                     initial={{ opacity: 0, height: 0 }}
@@ -182,7 +183,7 @@ export default function Navbar() {
                             </motion.div>
                         </motion.div>
                     </motion.div>
-                </DisclosurePanel>
+                </DisclosurePanelMotion>
             </AnimatePresence>
         </Disclosure>
     )
